@@ -85,8 +85,9 @@ jobs:
       run: |
        git config --global user.email "2119059471@qq.com"                                                        
        git config --global user.name "Tyuhub"
-       curl https://storage.googleapis.com/git-repo-downloads/repo > /bin/repo
-       chmod a+x /bin/repo
+       curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+       chmod a+x ~/bin/repo
+       PATH=~/bin/repo:$PATH
        cd android-kernel
        repo init -u https://github.com/mondrian-kernel-development.git -b mondrian-s-oss
        repo sync
