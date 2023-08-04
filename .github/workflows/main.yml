@@ -7,7 +7,7 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'Tyuhub/android_kernel_xiaomi_mondrian'
+        default: 'mondrian-kernel-development/android_kernel_xiaomi_mondrian'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
