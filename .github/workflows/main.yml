@@ -86,8 +86,7 @@ jobs:
       with:
         github-server-url: 'https://github.com'
         repository: ${{ env.KERNEL_SOURCE }}
-        ref: ${{ env.KERNEL_SOURCE_BRANCH }}
-        submodules: recursive
+        ref: ${{ env.KERNEL_SOURCE_BRANCH }
         path: android-kernel
 
     - name: Setup KernelSU
