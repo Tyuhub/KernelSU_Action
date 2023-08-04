@@ -81,7 +81,7 @@ jobs:
        git config --global user.name "Tyuhub"
        mkdir android-kernel
        cd android-kernel
-       repo init -u https://github.com/mondrian-kernel-development.git -b mondrian-s-oss
+       repo init -u https://github.com/mondrian-kernel-development/manifest -b mondrian-s-oss
        repo sync
        
 
