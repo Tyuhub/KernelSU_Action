@@ -82,12 +82,8 @@ jobs:
         tar -C clang/ -zxf clang.tar.gz
 
     - name: Checkout Kernel Source
-      uses: actions/checkout@v3
-      with:
-        github-server-url: 'https://github.com'
-        repository: ${{ env.KERNEL_SOURCE }}
-        ref: ${{ env.KERNEL_SOURCE_BRANCH }
-        path: android-kernel
+      run: 
+      git clone https://github.com/Tyuhub/android_kernel_xiaomi_mondrian android-kernel
 
     - name: Setup KernelSU
       if: env.USE_KERNELSU == 'true'
