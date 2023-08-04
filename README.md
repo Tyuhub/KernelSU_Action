@@ -1,1 +1,1 @@
-A GitHub Action for building [RealKing-kernel-SM8250-munch-mi](https://github.com/Rohail33/RealKing-kernel-SM8250/tree/munch-mi)
+A GitHub Action for building [mondrian](https://github.com/Tyuhub/android_kernel_xiaomi_mondrian)
